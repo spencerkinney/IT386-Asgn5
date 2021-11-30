@@ -1,6 +1,6 @@
 /** 
     Created by Spencer Kinney
-    IT386 - Homework 05
+    IT386 Homework 05
     Dr. Rosangela Follmann
 */
 import java.rmi.Naming;
