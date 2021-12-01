@@ -5,6 +5,7 @@
 */
 import java.rmi.*;
 
+/* Simple interace for basic arithmetic operations */
 public interface Compute extends Remote {
   long add (long a, long b) throws RemoteException;
   long subtract (long a, long b) throws RemoteException;

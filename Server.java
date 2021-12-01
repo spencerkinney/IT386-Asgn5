@@ -10,6 +10,7 @@ public class Server {
     {
         try
         {
+            /* Creating new remote object and binding the name */
             ComputeImpl obj = new ComputeImpl();
             Naming.rebind("//localhost/Server", obj);
             System.out.println("Server is ready");

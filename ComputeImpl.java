@@ -4,8 +4,10 @@
     Dr. Rosangela Follmann
 */
 import java.rmi.*;
+import java.rmi.server.*;
 
-public class ComputeImpl implements Compute {
+public class ComputeImpl extends UnicastRemoteObject implements Compute {
+  ComputeImpl() throws RemoteException {}
   /** Returns sum of two long integers */
   public long add (long a, long b) throws RemoteException {
     return a + b;
